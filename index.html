@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY SITE</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
   </head>
 </head>
 <body>
     <!--Navbar-->
 
-    <nav 
-    class="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700"
-    >
-    
+    <nav class="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
         <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-         <h1 class="font-bold text-xl">NATHAN'S COLLECTION</h1>
-         <ul class="flex gap-5">
-          <li class="hover:text-blue-300"><a href="#">Features</a></li>
-           <li class="hover:text-blue-300"><a href="#">Pricing</a></li>
-            <li class="hover:text-blue-300"><a href="#">About</a></li>
-         </ul>
+            <h1 class="font-bold text-xl">NATHAN'S COLLECTION</h1>
+            <ul class="flex gap-5">
+                <li class="hover:text-blue-300"><a href="#">Features</a></li>
+                <li class="hover:text-blue-300"><a href="#">Pricing</a></li>
+                <li class="hover:text-blue-300"><a href="#">About</a></li>
+            </ul>
 
-         <button class="hover:text-blue-700 bg-indigo-400 py-1 rounded-xl">Get Started</button>
+         <button class="hover:text-blue-700 bg-indigo-400 py-1 rounded-2xl">Get Started</button>
         </div>
     </nav>
 
@@ -45,10 +42,10 @@
         </p>
         <!--primary button-->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-15">
-        <!--secondary button-->
-     <button class="bg-indo-700 py-2 px-2 w-34 rounded-xl hover:bg-indigo-600 text-white">ORDER TODAY </button>
-      <!--secondary button-->
-      <button class=" py-20 md:py-32 px-6 text-center py-2 rounded-xl px-2 text-black hover:bg-indigo-400 border-2 border-indigo-400 py-20 ">ENTER THE BOUTIQUE </button>
+            <!--secondary button-->
+            <button class="bg-indo-700 py-2 px-2 rounded-xl hover:bg-indigo-600 text-white">ORDER TODAY </button>
+            <!--secondary button-->
+            <button class=" py-20 md:py-32 px-6 text-center py-2 rounded-xl px-2 text-black hover:bg-indigo-400 border-2 border-indigo-400 py-20 ">ENTER THE BOUTIQUE </button>
         </div>
        </div>
     </section>
@@ -140,5 +137,87 @@
                 </div>
             </div>
         </section>
+        <section class="py-20 px-6 max-w-5xl mx-auto bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+          <!--section Heading-->
+          <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-2">PRICING PLAN</h2>
+          <P class="text-gray-600 dark:text-gray-300 text-sm"> Select for Free</P>
+          </div>
+
+          <!--Pricing Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!--Basic Plan-->
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-6 flex flex-col justify-between shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2">Starter</h3>
+                <p class="ext-3xl font-bold mb-2">$500<span class="text-base font-normal">/mo</span></p>
+                <p class="text-white mb-4">For our  Esteemed customers</p>
+                <ul class=" flex flex-col gap-2 mb-6 text-black">
+                    <li>✔️Free delivery</li>
+                    <li>✔️Exclucive offers</li>
+                    <li>✔️Full collection acess</li>
+                    <li>✔️priority support</li>
+                </ul>
+                 <button class="bg-white text-rose-500 dark:text-rose-600 py-2 px-4 rounded-full hover:bg-gray-100 dark hover:bg-gray-200 transition">Choose Plan</button>
+            </div>
+            <!-- Most Popular Plan -->
+          <div
+            class="bg-pink-600 text-white rounded-2xl p-8 shadow-lg transform scale-105"
+          >
+            <p class="text-xs uppercase tracking-widest mb-3">Most Popular</p>
+            <h3 class="font-bold text-xl mb-2">Pro Glow</h3>
+            <p class="mb-4 text-white/80">Best value for glowing skin</p>
+            <p class="text-3xl font-black mb-6">
+              $39<span class="text-lg font-medium">/mo</span>
+            </p>
+
+            <ul class="space-y-3 text-sm mb-8">
+              <li>✔ Full skincare bundle</li>
+              <li>✔ Priority support</li>
+              <li>✔ Exclusive products</li>
+              <li>✔ Early access</li>
+            </ul>
+
+            <a
+              href="#"
+              class="block text-center bg-white text-pink-600 py-3 rounded-full hover:bg-gray-100 transition font-semibold"
+            >
+              Get Started
+            </a>
+          </div>
+          
+                     <!-- Premium Plan -->
+          <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm">
+            <h3 class="font-bold text-xl text-gray-900 dark:text-white mb-2">
+              Luxury
+            </h3>
+            <p class="text-gray-500 dark:text-gray-400 mb-4">
+              For ultimate care
+            </p>
+            <p class="text-3xl font-black text-gray-900 dark:text-white mb-6">
+              $69<span class="text-lg font-medium">/mo</span>
+            </p>
+
+            <ul class="space-y-3 text-sm text-gray-600 dark:text-gray-300 mb-8">
+              <li>✔ Premium collection</li>
+              <li>✔ 24/7 support</li>
+              <li>✔ Personal consultation</li>
+              <li>✔ VIP access</li>
+            </ul>
+
+            <a
+              href="#"
+              class="block text-center bg-pink-600 text-white py-3 rounded-full hover:bg-pink-700 transition"
+            >
+              Get Started
+            </a>
+          </div>
+       
+      </div>
+    </section>
+
+          </div>
+        </section>
+        
 </body>
 </html>
